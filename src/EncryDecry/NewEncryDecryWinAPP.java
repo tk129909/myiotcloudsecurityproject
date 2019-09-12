@@ -69,6 +69,7 @@ private Cipher cipher;
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					
 					window = new NewEncryDecryWinAPP("!@#$MySecr3tPassw0rd", 16, "AES");
 					window.frame.setVisible(true);
 				} catch (Exception e) {
